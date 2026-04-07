@@ -886,6 +886,214 @@
           </ul>
         </li>
       </ul>
+
+      <br />
+<br />
+
+<h3>Artifact-10: Pre-Trained Model Trade-Offs Across AI Domains</h3>
+<ul>
+  <li>
+    <strong>Title:</strong> Pre-Trained Model Trade-Offs Across AI Domains
+  </li>
+
+  <li>
+    <strong>Introduction:</strong> This artifact demonstrates my ability to
+    evaluate pre-trained AI models across natural language processing,
+    computer vision, and tabular-data applications by comparing the trade-offs
+    between model size, accuracy, speed, and explainability. Rather than
+    assuming that the most powerful model is always the best choice, this
+    artifact shows that model selection should depend on the task, deployment
+    environment, computational constraints, and the level of interpretability
+    required in practice.
+  </li>
+
+  <li>
+    <strong>Description:</strong> This artifact was developed from my study of
+    transfer learning and modern AI deployment practices. It compares several
+    representative model families across different domains, including BERT and
+    GPT-style models for NLP and generative AI, ResNet and MobileNet for
+    computer vision, and XGBoost and Random Forest for tabular-data analysis.
+    The artifact highlights how larger models often provide stronger overall
+    capability but also increase latency, cost, and operational complexity,
+    while smaller or more structured models may offer faster inference,
+    simpler deployment, and better explainability for many business use cases.
+  </li>
+
+  <li>
+    <strong>Objective:</strong> The goal of this artifact was to build a clear
+    decision framework for selecting pre-trained models across domains by
+    balancing performance, efficiency, and explainability. I also wanted to
+    show how transfer learning and post-deployment considerations influence
+    practical model choice in real-world AI systems.
+  </li>
+
+  <li>
+    <strong>Process:</strong>
+    <ol>
+      <li>
+        Reviewed the Module 5 assignment requirements and identified the need
+        to compare at least four models across NLP/Generative AI, computer
+        vision, and tabular-data domains.
+      </li>
+      <li>
+        Used my transfer learning research to understand how pre-trained models
+        reuse learned patterns and reduce the need for large task-specific
+        training datasets.
+      </li>
+      <li>
+        Selected representative models that reflect different design goals,
+        including accuracy, computational efficiency, portability, and
+        explainability.
+      </li>
+      <li>
+        Organized the comparison into a decision matrix using the key criteria
+        of model size, accuracy, speed, and additional practical
+        considerations.
+      </li>
+      <li>
+        Connected the comparison to real-world deployment concerns such as
+        latency, resource constraints, interpretability, and monitoring after
+        release.
+      </li>
+    </ol>
+  </li>
+
+  <li>
+    <strong>Decision Matrix:</strong>
+    <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; margin-top: 10px;">
+      <thead style="background-color: #eaf2fb;">
+        <tr>
+          <th>Model</th>
+          <th>Domain</th>
+          <th>Model Size</th>
+          <th>Accuracy / Strength</th>
+          <th>Speed</th>
+          <th>Explainability / Practical Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>BERT</td>
+          <td>NLP</td>
+          <td>Medium to Large</td>
+          <td>High language understanding performance</td>
+          <td>Moderate</td>
+          <td>Strong transfer learning value; more explainable than large generative models for classification tasks</td>
+        </tr>
+        <tr>
+          <td>GPT-style Models</td>
+          <td>Generative AI / NLP</td>
+          <td>Very Large</td>
+          <td>Very high general capability</td>
+          <td>Slower and more resource intensive</td>
+          <td>Broad capability but lower direct interpretability; requires guardrails, monitoring, and cost-aware deployment</td>
+        </tr>
+        <tr>
+          <td>ResNet</td>
+          <td>Computer Vision</td>
+          <td>Large</td>
+          <td>High image classification performance</td>
+          <td>Moderate</td>
+          <td>Strong transfer learning backbone; good for accuracy-focused vision tasks</td>
+        </tr>
+        <tr>
+          <td>MobileNet</td>
+          <td>Computer Vision</td>
+          <td>Small / Lightweight</td>
+          <td>Good with some trade-off in peak accuracy</td>
+          <td>Fast</td>
+          <td>Well suited for mobile and edge devices where speed and efficiency matter most</td>
+        </tr>
+        <tr>
+          <td>XGBoost</td>
+          <td>Tabular Data</td>
+          <td>Moderate</td>
+          <td>Very strong on structured data</td>
+          <td>Fast</td>
+          <td>Excellent practical choice for tabular tasks; feature importance improves explainability</td>
+        </tr>
+        <tr>
+          <td>Random Forest</td>
+          <td>Tabular Data</td>
+          <td>Moderate</td>
+          <td>Strong and stable baseline</td>
+          <td>Moderate to Fast</td>
+          <td>Good interpretability and robustness; often easier to explain to business stakeholders</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+
+  <li>
+    <strong>Analysis and Recommendations:</strong>
+    <ul>
+      <li>
+        <strong>NLP / Generative AI:</strong> BERT is a strong choice for
+        focused language-understanding tasks such as classification and
+        question answering, while GPT-style models are better when broad
+        generative capability is needed across many prompts and use cases.
+      </li>
+      <li>
+        <strong>Computer Vision:</strong> ResNet is well suited for
+        accuracy-focused image tasks, while MobileNet is preferable when the
+        deployment environment requires low latency and efficient edge or
+        mobile performance.
+      </li>
+      <li>
+        <strong>Tabular Data:</strong> XGBoost and Random Forest remain highly
+        practical because they perform well on structured datasets and also
+        provide more direct feature-level explanation than most deep-learning
+        alternatives.
+      </li>
+      <li>
+        <strong>Overall Recommendation:</strong> The best model is not simply
+        the largest or most accurate one. Effective model selection depends on
+        the domain, available compute, latency requirements, maintenance cost,
+        and the need for explainability and trustworthy deployment.
+      </li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Tools/Technologies Used:</strong>
+    <ul>
+      <li>Microsoft Word</li>
+      <li>HTML portfolio website</li>
+      <li>Transfer learning concepts and pre-trained model comparison</li>
+      <li>Decision matrix design</li>
+      <li>Model monitoring and deployment evaluation concepts</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Value Proposition:</strong>
+    <ul>
+      <li>
+        <strong>Unique Value:</strong> This artifact shows that I can compare
+        AI models across multiple domains and evaluate more than just raw
+        benchmark performance. It demonstrates my ability to connect technical
+        model characteristics with real-world deployment needs.
+      </li>
+      <li>
+        <strong>Relevance:</strong> In professional AI work, teams must balance
+        accuracy, speed, cost, and explainability when choosing models. This
+        artifact reflects that practical decision-making process and shows my
+        readiness to think beyond a single metric.
+      </li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>References:</strong>
+    <ul>
+      <li>Module 5.3: Transfer Learning in Modern Artificial Intelligence</li>
+      <li>Module 5.2: Monitoring Commercial Generative AI Models</li>
+      <li>Research on BERT, ResNet, MobileNet, XGBoost, and Random Forest</li>
+    </ul>
+  </li>
+</ul>
+
+
       
 </div>
 
